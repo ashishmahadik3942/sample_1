@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    background: linear-gradient(#b388eb, #fdc5f5);
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-shadow: 0 0 4px #b388eb;
+    font-weight: 800;
+}
+
+img {
+    width: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    background-image: url(https://mittalbuilders.com/wp-content/uploads/2020/12/Reasons-to-settle-down-in-Pune-1400x700.png);
+    background-size:  cover;
+    -webkit-mask-image: linear-gradient(black 50%, transparent);
+    
+}
+
+.nav-bar>h2{
+    padding-bottom: 40px;
+    color: white;
+    font-size: 25x;
+    text-shadow: 0 0 3px white;
+    
+}
+.mid-card{
+    width: 250px;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px #b388eb;
+    border-radius: 10px;
+}
+.mid-card>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #fdc5f5;
+}
+.mid-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+.guide-card>div>img{
+    border-radius: 50%;
+}
+.guide-card>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px 0;
+    box-shadow: 0 0 8px #b388eb;
+}
+.guide-card>div>div{
+    margin: 0 20px;
+}
+.guide-card>div:hover{
+    box-shadow: 
+}
