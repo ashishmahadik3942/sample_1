@@ -36,7 +36,7 @@ img {
 .nav-bar>h2{
     padding-bottom: 40px;
     color: white;
-    opacity: 0;
+    opacity: 1;
     font-size: 25x;
     text-shadow: 0 0 3px white;
     
